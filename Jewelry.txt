@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jewelry Online Store</title>
+  <style>
+    /* CSS styles for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #555;
+      color: #fff;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    nav li {
+      display: inline;
+      padding: 5px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .product {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product-item {
+      width: 300px;
+      margin: 20px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .product-image {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .product-name {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .product-price {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to our Jewelry Online Store</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Rings</a></li>
+      <li><a href="#">Scrunchies</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Rings</h2>
+    <div class="product">
+      <div class="product-item">
+        <img class="product-image" src="ring1.jpg" alt="Ring 1">
+        <h3 class="product-name">Diamond Ring</h3>
+        <p class="product-price">Rs. 500</p>
+      </div>
+      <div class="product-item">
+        <img class="product-image" src="ring2.jpg" alt="Ring 2">
+        <h3 class="product-name">Gold Ring</h3>
+        <p class="product-price">Rs. 400</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Scrunchies</h2>
+    <div class="product">
+      <div class="product-item">
+        <img class="product-image" src="123.jpg" alt="Scrunchie 1">
+        <h3 class="product-name">Velvet Scrunchie</h3>
+        <p class="product-price">Rs. 150</p>
+      </div>
+      <div class="product-item">
+        <img class="product-image" src="123.jpg" alt="Scrunchie 2">
+        <h3 class="product-name">Silk Scrunchie</h3>
+        <p class="product-price">Rs. 200</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2023 Jewelry Online Store. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
